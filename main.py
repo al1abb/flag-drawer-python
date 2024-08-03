@@ -14,7 +14,7 @@ t = Turtle()
 t.speed(0)
 
 # Draw rectangle function
-def draw_rectangle(color, width, height):
+def draw_rectangle(color, width=RECT_WIDTH, height=RECT_HEIGHT):
     t.begin_fill()
     t.color(color)
     for _ in range(2):
